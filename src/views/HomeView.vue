@@ -11,7 +11,7 @@
         <button class="px-3 py-1 bg-green-600 text-white rounded-md">Save</button>
       </div>
       <div class="flex w-1/2 justify-center items-center">
-        hello
+        no data to display
       </div>
     </div>
   </div>
