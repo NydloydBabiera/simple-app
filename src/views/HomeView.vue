@@ -112,6 +112,7 @@ export default {
         <input v-model="ageToAdd" class="border-2 rounded-md py-1 px-3" type="number" placeholder="Age">
         <button @click="addUser()" class="px-3 py-1 bg-green-600 text-white rounded-md">Add</button>
       </div>
+<<<<<<< HEAD
       <div class="right flex flex-col w-1/2 justify-center px-10">
         <div v-for="user in usersList" :key="user.userinfo_id" >
           <p>{{ user.firstname }} {{ user.middlename }} {{ user.lastname }}, {{user.age}} years of age
@@ -131,6 +132,10 @@ export default {
         <input v-model="ageToEdit" class="border-2 rounded-md py-1 px-3" type="number" placeholder="Age">
         <button @click="editUser" class="px-3 py-1 bg-green-600 text-white rounded-md">Save</button>
         <button @click="showEditModal = false" class="px-3 py-1 bg-slate-600 text-white rounded-md">Close</button>
+=======
+      <div class="flex w-1/2 justify-center items-center">
+        no data to display
+>>>>>>> e03255f70d2ad142ae2dcfe275acf0c06706873c
       </div>
     </div>
   </div>
