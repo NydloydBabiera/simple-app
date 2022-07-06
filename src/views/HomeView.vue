@@ -26,7 +26,7 @@ export default {
       try{
         const res = await axios({
           method: 'POST',
-          url: 'http://localhost:5000/getUser',
+          url: 'http://172.16.4.153:5000/getUser',
           headers: {},
           data: {
             firstName: firstname,
@@ -58,7 +58,7 @@ export default {
       try{
         const res = await axios({
           method: 'DELETE',
-          url: `http://localhost:5000/getUser/${id}`,
+          url: `http://172.16.4.153:5000/getUser/${id}`,
           headers: {},
         })
         console.log('src\views\HomeView.vue ~ HomeView ~ Line 59 ~ res: ', res)
@@ -83,7 +83,7 @@ export default {
       try{
         const res = await axios({
           method: 'PUT',
-          url: `http://localhost:5000/getUser/${id}`,
+          url: `http://172.16.4.153:5000/getUser/${id}`,
           headers: {},
           data: {
             firstName: firstname,
@@ -114,7 +114,7 @@ export default {
       try{
         const res = await axios({
           method: 'GET',
-          url: 'http://localhost:5000/getUser',
+          url: 'http://172.16.4.153:5000/getUser',
         })
         console.log('src\views\HomeView.vue ~ HomeView ~ Line 2 ~ res: ', res)
         this.usersList = res.data
