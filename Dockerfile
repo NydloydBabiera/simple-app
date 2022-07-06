@@ -7,8 +7,8 @@ RUN chmod +x /entrypoint.sh
 
 ADD . .
 
-RUN npm config set proxy http://192.168.36.35:3128
-RUN npm config set https-proxy http://192.168.36.35:3128
+# RUN npm config set proxy http://192.168.36.35:3128
+# RUN npm config set https-proxy http://192.168.36.35:3128
 
 RUN npm install
 
